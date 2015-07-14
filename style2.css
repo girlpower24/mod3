@@ -1,0 +1,97 @@
+ {
+	border: 1px solid red !important;
+}
+
+body{
+	margin: 0;
+	background-image: url(images/apple.jpg);
+}
+
+.top{
+	height: auto;
+	width: auto;
+	background-color: #9ADEFF;
+}
+
+#top_nav li:hover ul{
+	display:block;
+}
+
+#top_nav ul{
+	margin:0px
+	padding:0px;
+}
+
+#top_nav li{
+	position: relative;
+	float: left;
+	list-style-type: none;
+	background-color: #9ADEFF;
+}
+
+#top_nav ul:after{
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+#top_nav ul ul{
+	position: absolute;
+	display: none;
+	left: auto;
+	width: 10px;
+	
+}
+
+
+#top_nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+	padding: 10px 20px;
+	position: relative;
+	width: 150px;
+}
+
+#top_nav ul li a:hover {
+	color: white;
+	background-color: orange;
+	border: 10;
+}
+
+.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    background-color: orange;
+ }
+
+.pagebreak{
+	height: 0;
+	width: 100%;
+	border-bottom: 2px solid orange;
+}
+
+.text{
+	height: auto;
+	width: 50%;
+	background-color: orange;
+	text-align: center;
+}
+
+.text p {
+	font-size: 25px;
+}	
+
+.pagebreak1 {
+	background-color: #9ADEFF;
+}
+
+.pagebreak a h3 {
+	text-decoration: none;
+}
